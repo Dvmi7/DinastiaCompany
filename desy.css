@@ -6,6 +6,45 @@ body {
     padding: 0;
 }
 
+/* FORMULARIO DE INICIO DE SESIÓN Y CREACIÓN DE CUENTA */
+
+  
+
+/* FORMULARIO DE INICIO DE SESIÓN Y CREACIÓN DE CUENTA */
+
+/* MENU NAVEGACÓN TIPO HAMBURGUESA */
+.menu-container {
+    position: relative;
+  }
+  
+  .menu {
+    display: none;
+    position: absolute;
+    top: 50px; /* Ajusta la posición del menú */
+    left: 70px;
+    background-color: #222;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu ul li {
+    margin: 20px 0;
+  }
+  
+  .menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+/* FIN MENÚ NAVEGACIÓN TIPO HAMBURGUESA */
+
 h1 {
     text-align: center;
     font-size: 50px;
@@ -42,7 +81,11 @@ button:hover div:last-child {
     transform: rotate(-45deg);
 }
 
-
+.menuContainer {
+    display: flex;
+    justify-content:flex-start;
+    align-self: start;
+}
 
 .portada img {
     display: block;
